@@ -20,35 +20,19 @@
   <meta name="theme-color" content="#563d7c">
 
 
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
-  <!-- Custom styles for this template -->
-  <link href="starter-template.css" rel="stylesheet">
 </head>
 
-<body>
+<body style='background-image: url(http://static.wixstatic.com/media/11062b_35e9c1a919df41df8b95c20340739349f000.jpg);height:100%;  background-attachment: fixed;'>
 
-  <main role="main" class="container" style="background-image: url(http://static.wixstatic.com/media/11062b_35e9c1a919df41df8b95c20340739349f000.jpg);">
+  <main role="main" class="container" >
     <!--
       This is the background video they use for their site. Need to replace the static image with this once I've finished everything else.
       src="https://video.wixstatic.com/video/11062b_35e9c1a919df41df8b95c20340739349/1080p/mp4/file.mp4"
 
       See https://codepen.io/chriscoyier/pen/BRvdgK for a demonstration of how to implement this
     -->
+
+    <div id='backgroundImage'></div>
 
     <!--
       Trigger page to render
@@ -82,10 +66,9 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-  <script src="/docs/4.5/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd"
-    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"><\/script>')</script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>></script>
+    <script> if(typeof($.fn.modal) === 'undefined')alert("No bootstrap")</script>
 </body>
 
 </html>
