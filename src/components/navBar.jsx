@@ -5,11 +5,10 @@ class NavBar extends Component {
     render() {
         return (
             <React.Fragment>
-                <nav class="nav" >
-                    <div class="container d-flex flex-column flex-md-row justify-content-between" >
+                <nav class="navbar navbar-expand-lg" >
                         <ArdentLogo />
                         <NavigationLinks section={'navBar'}/>
-                    </div>
+                    
                 </nav>
             </React.Fragment>
         );
