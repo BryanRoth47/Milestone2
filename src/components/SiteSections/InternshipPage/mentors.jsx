@@ -1,29 +1,73 @@
 import React, { Component } from 'react';
 
-class Mentors extends Component {
+class Mentor extends Component {
 
     render() {
-        return (
-            <React.Fragment>
-                <div class='container'>
-                    <div class="row justify-content-center white" style={{ marginTop: "50px" }}>
-                        <h1 class=" font88" >SOFTWARE ENGINEERING</h1>
-                        <h1 class="font88" >VIRTUAL INTERNSHIP</h1>
+        const listOfMentors = {
+            'Danial': {
+                name: 'Danial',
+                position: 'Full time job offer at Western Digital',
+                image: 'https://static.wixstatic.com/media/132a22_0b1ddd50eba044b7b98b89ed1f9bf0b8~mv2.png'
+            },
+            'Ryan': {
+                name: 'Ryan',
+                position: 'Full time job offer at Amazon',
+                image: 'https://static.wixstatic.com/media/132a22_f05e88c48bb84703a5c5136b97fc64ec~mv2.png'
+            },
+            'Nisarg': {
+                name: 'Nisarg',
+                position: 'Full time job offer at Amazon',
+                image: 'https://static.wixstatic.com/media/132a22_a079932192464842a4d7e8a06daa394d~mv2.png'
+            },
+            'Alvin': {
+                name: 'Alvin',
+                position: 'Accepted intern at Amazon',
+                image: 'https://static.wixstatic.com/media/132a22_a14bcd27554f484ab5feb8cfb74dc1e8~mv2.png'
+            },
+            'Kuixi': {
+                name: 'Kuixi',
+                position: 'Accepted intern at Amazon',
+                image: 'https://static.wixstatic.com/media/132a22_1a6f7865e12f4b4082ec06757a84a765~mv2.png'
+            }
+        }
 
-                        <h3 class='font24' style={{ paddingLeft: '50px', paddingRight: '50px' }}>As many internships have been suspended, or even cancelled, Ardent Labs aims to continue bringing quality internship programs to everyone at home during the crisis. During our 8-10 weeks virtual spring internship, interns will have the opportunity to learn modern web development tools by working on multiple milestone projects.
-                    </h3>
-                    </div>
-                    <div class='container'>
-                        <div class="row justify-content-center">
-                            <div class='col col-sm-3 white' style={{ borderBottomWidth: "5px", borderBottomStyle: 'solid', marginTop: "30px", paddingTop: '15px', boxSizing: 'border-box' }}>
+        let currentMentor = listOfMentors[this.props.name];
 
-                            </div>
-                        </div>
+        if (typeof (currentMentor) === 'undefined') {
+            return (<div class="col-2"></div>)
+        }
+        else {
+            return (
+                <React.Fragment>
+                    <div class="col-2">
+                        <img width="160" height="160" class="rounded-circle" src={currentMentor.image} />
                     </div>
-                </div>
-            </React.Fragment>
-        );
+                    <div class="col">
+                        <JobBlurb name={currentMentor.name} position={currentMentor.position} />
+                    </div>
+                </React.Fragment>
+            );
+        }
     };
 }
 
-export default Mentors;
+export default Mentor;
+
+
+const JobBlurb = (props) => {
+    return (
+        <React.Fragment>
+            <span style={{ fontSize: '32px', fontFamily: 'Helvetica' }}>
+                {props.name.toUpperCase()}
+            </span>
+            <br />
+            <span style={{ fontSize: '18px', fontFamily: 'sans-serif', fontWeight: 'bold' }}>
+                Software Engineer at Ardent Labs
+            </span>
+            <br />
+            <span style={{ fontSize: '18px', fontFamily: 'sans-serif', fontStyle: "italic" }}>
+                {props.position}
+            </span>
+        </React.Fragment>
+    )
+}

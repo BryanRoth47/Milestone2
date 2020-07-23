@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import InternshipTitle from './SiteSections/InternshipPage/internshipTitle';
 import InternshipDetails from './SiteSections/InternshipPage/internshipDetails';
-import Mentors from './SiteSections/InternshipPage/mentors';
+import RenderMentors from './SiteSections/InternshipPage/renderMentors';
+import YearRound from './SiteSections/InternshipPage/yearRound';
 
 class InternshipPage extends Component {
     render() {
@@ -9,7 +10,8 @@ class InternshipPage extends Component {
             <React.Fragment>
                 <InternshipTitle />
                 <InternshipDetails />
-                <Mentors />
+                <RenderMentors />
+                <YearRound />
             </React.Fragment>
         );
     }

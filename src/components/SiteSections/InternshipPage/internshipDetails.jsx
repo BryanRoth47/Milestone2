@@ -60,9 +60,9 @@ class InternshipDetails extends Component {
                                         <span style={{fontFamily:"din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif"}}>
                                             This virtual internship takes place during the duration of UCI's spring quarter. The internship will end on June 5th
                                         <span style={{textDecoration:"underline"}}>,</span>
-                                        and interns who are interested in the summer internship will need to send in another application around May 10th. To learn more about about our summer internships,
+                                        {"and interns who are interested in the summer internship will need to send in another application around May 10th. To learn more about about our summer internships, "}
                                         <span style={{textDecoration:"underline"}}>
-                                                <a href="https://ead60fcc-40f3-4b04-9c66-485499008c9a.filesusr.com/ugd/132a22_10acddd2d98747ed97eae09cef4f048e.pdf" target="_blank" data-type="document">click here</a>
+                                                <a href="https://ead60fcc-40f3-4b04-9c66-485499008c9a.filesusr.com/ugd/132a22_10acddd2d98747ed97eae09cef4f048e.pdf" target="_blank" data-type="document" class='white'>click here</a>
                                             </span>.
                                         </span>
                                     </span>
