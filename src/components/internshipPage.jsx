@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
+import InternshipTitle from './SiteSections/InternshipPage/internshipTitle';
+import InternshipDetails from './SiteSections/InternshipPage/internshipDetails';
+import Mentors from './SiteSections/InternshipPage/mentors';
 
 class InternshipPage extends Component {
     render() {
         return (
             <React.Fragment>
-                <h1>Internship Page!</h1>
-                <h1>Internship Page!</h1>
-                <h1>Internship Page!</h1>
-                <h1>Internship Page!</h1>
-                <h1>Internship Page!</h1>
-                <h1>Internship Page!</h1>
+                <InternshipTitle />
+                <InternshipDetails />
+                <Mentors />
             </React.Fragment>
         );
     }

@@ -1,24 +1,23 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class NGL_and_IMG extends Component {
 
     render() {
         return (
             <React.Fragment>
-                <h2 class="font_2" style={{ fontSize: '24px', textAlign: 'center', color: 'white' }}>
-                    <span class="color_11" style={{ fontWeight: 'bold', fontFamily: 'avenir-lt-w01_35-light1475496,sans-serif' }}>Looking for an internship?
-                                <span style={{ textDecoration: 'underline' }}>
-                            <a href="/software-engineering-remote-interns" target="_self" style={{ color: 'white' }}>Check out our Software Engineering Virtual Internship!</a>
-                        </span>
-                    </span>
+                <h2 class="font24 white" style={{ textAlign: 'center', marginTop: '50px' }}>Looking for an internship?
+                    <Link to='/software-engineering-internship' class="white" style={{ textDecoration: 'underline', paddingLeft:'10px' }}>
+                        Check out our Software Engineering Virtual Internship!</Link>
                 </h2>
-                <div class="container">
+                <div class="container" style={{marginTop:'50px'}}>
                     <div class="row justify-content-center">
-                        <div class="col-4" style={{ color: "white" }}>
-                            <h1 class="display-5" style={{ fontSize: '72px' }}>Next</h1>
-                            <h1 class="display-5" style={{ fontSize: '72px' }}>Generation</h1>
-                            <h1 class="display-5" style={{ fontSize: '72px' }}>Learning</h1>
+                        <div class="col-4 white">
+                            <h1 class=" font88" >Next</h1>
+                            <h1 class="font88" >Generation</h1>
+                            <h1 class="font88" >Learning</h1>
                         </div>
+                        <div class="col-3"></div>
                         <div class="col-4">
                             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">

@@ -6,18 +6,18 @@ class Portfolio extends Component {
         return (
             <React.Fragment >
                 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3" style={{ backgroundColor: 'white' }}>
-                    <h1 class="display-4 font-weight-normal" style={{ color: '#646666' }}>PORTFOLIO</h1>
+                    <h1 class="sectionHeading font88 ardentGrey">PORTFOLIO</h1>
 
-                    <div class="container">
-                        <div class="row" >
-                            <div class="col">
+                    <div class="container ">
+                        <div class="row justify-content-md-center" style={{margin:'50px'}}>
+                            <div class="col col-md-auto">
                                 <img width='250' height='auto' src="https://static.wixstatic.com/media/132a22_c8bbc9968f4d4e7094ada4543bae9666~mv2.jpg" style={{ background: 'transparent' }}></img>
                             </div>
-                            <div class="col">
+                            <div class="col col-md-auto">
                                 <img width='250' height='auto' src="https://static.wixstatic.com/media/132a22_32254ec560934b9e8fc367a61e294eba~mv2.jpg"></img>
                             </div>
                         </div>
-                        <div class="row" >
+                        <div class="row" style={{margin:'80px'}}>
                             <div class="col">
                                 <img width='250' height='auto' src="https://static.wixstatic.com/media/132a22_707013970bc84ee29a18e4fd4a4cd8e7~mv2.png"></img>
                             </div>

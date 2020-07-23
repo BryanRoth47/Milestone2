@@ -1,22 +1,33 @@
-/*
-body, html {
-  height: 100%;
-  background-color: tomato;
+.ardentGrey{
+  color: #646666;
 }
 
-main{
-  background-color: teal;
+.ardentBlue{
+  color:#0099ff;
 }
 
-#main {
-  
-  background-image: url(http://static.wixstatic.com/media/11062b_35e9c1a919df41df8b95c20340739349f000.jpg);
-
-  height: 100%;
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.white{
+  color:white;
 }
-*/
+
+.font260{
+  font-size: 260px;
+}
+
+.font88{
+  font-size: 88px;
+}
+
+.font36{
+  font-size: 36px;
+}
+
+.font24{
+  font-size: 24px;
+}
+
+.sectionHeading{
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin-bottom: 0px;
+}

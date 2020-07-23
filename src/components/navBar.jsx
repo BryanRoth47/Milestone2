@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import {NavigationLinks, ArdentLogo} from './navigationLinks';
+import { NavigationLinks, ArdentLogo } from './navigationLinks';
 
 class NavBar extends Component {
     render() {
+        const sectionName = 'navBar';
         return (
             <React.Fragment>
                 <nav class="navbar navbar-expand-lg" >
-                        <ArdentLogo />
-                        <NavigationLinks section={'navBar'}/>
-                    
+                    <ArdentLogo section={sectionName} />
+                    <NavigationLinks section={sectionName} />
                 </nav>
             </React.Fragment>
         );
