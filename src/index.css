@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .ardentGrey{
   color: #646666;
 }

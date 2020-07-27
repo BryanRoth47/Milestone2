@@ -5,7 +5,7 @@ class Internships extends Component {
     render() {
         return (
             <React.Fragment >
-                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 ardentGrey" style={{ backgroundColor: '#efefef' }}>
+                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 ardentGrey" id="internships" style={{ backgroundColor: '#efefef' }}>
                     <h1 class="sectionHeading font88 ardentGrey" style={{ marginBottom: "20px" }}>INTERNSHIPS</h1>
 
                     <h3 class="font24">Software Engineer</h3>
@@ -20,7 +20,7 @@ class Internships extends Component {
                     <p style={{ fontSize: "18px" }}>Learn how to market software applications via online and offline marketing media with a special
                         emphasis on social media marketing.</p><br />
 
-                    <div class='container'>
+                    <div class='container' id="contact">
                         <div class='row'>
                             <div class='col-md-4'>
                                 <h6 class="font24 ardentBlue">Are you interested in developing a career and getting jobs at leading tech companies?

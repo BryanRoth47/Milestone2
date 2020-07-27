@@ -5,7 +5,7 @@ class WhatWeDo extends Component {
     render() {
         return (
             <React.Fragment >
-                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light">
+                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light" id="whatWeDo">
 
                     <div class="container">
                         <div class="row">

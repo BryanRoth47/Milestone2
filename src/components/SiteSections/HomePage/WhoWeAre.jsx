@@ -5,7 +5,7 @@ class WhoWeAre extends Component {
     render() {
         return (
             <React.Fragment >
-                <div id="test_link" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 white" style={{ backgroundColor: '#0099ff' }}>
+                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 white" id="whoWeAre" style={{ backgroundColor: '#0099ff' }}>
 
                     <h1 class="sectionHeading font88 white" style={{ marginTop: '50px', marginLeft: '30px' }}>WHO WE ARE</h1>
 
