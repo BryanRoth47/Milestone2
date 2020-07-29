@@ -7,8 +7,8 @@ class Footer extends Component {
         const sectionName = 'footer';
         return (
             <React.Fragment>
-                <div class="position-relative overflow-hidden p-5 white">
-                    <div class="row white" style={{ backgroundColor: '#646666' }}>
+                <div class="position-relative overflow-hidden p-5 white" style={{ backgroundColor: '#646666' }}>
+                    <div class="row white" style={{position:"relative", left:"200px", width:"80%"}}>
                         <div class="col-12 col-md">
                             <ArdentLogo section={sectionName} />
                         </div>

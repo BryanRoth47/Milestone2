@@ -6,7 +6,7 @@ class NavBar extends Component {
         const sectionName = 'navBar';
         return (
             <React.Fragment>
-                <nav class="navbar navbar-expand-lg" id="navBarTop">
+                <nav class="navbar navbar-expand-lg" id="navBarTop" style={{position:"relative", left:"200px", width:"80%"}}>
                     <ArdentLogo section={sectionName} />
                     <NavigationLinks section={sectionName} />
                 </nav>

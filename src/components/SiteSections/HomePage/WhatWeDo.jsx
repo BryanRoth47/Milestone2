@@ -5,9 +5,9 @@ class WhatWeDo extends Component {
     render() {
         return (
             <React.Fragment >
-                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light" id="whatWeDo">
+                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light" id="whatWeDo" style={{width:"100%", position:"relative", left:"-15px"}}>
 
-                    <div class="container">
+                    <div class="container" style={{position:"relative", left:"65px"}}>
                         <div class="row">
                             <div class="col">
                                 <h1 class="sectionHeading font88 ardentGrey">WHAT WE DO</h1>
@@ -54,8 +54,11 @@ class WhatWeDo extends Component {
                             </div>
                         </div>
                     </div>
-                    <div class="embed-responsive embed-responsive-16by9" style={{marginTop:'50px'}}>
-                        <video controls autoplay playsinline="true" src="https://video.wixstatic.com/video/132a22_f8c893ecc2c74984901b0213b6073de0/240p/mp4/file.mp4" />
+                    <div class="d-flex justify-content-center" style={{marginTop:'50px'}}>
+                        <video width="980" height="552"controls autoplay playsinline="true" >
+                            <source src="https://video.wixstatic.com/video/132a22_f8c893ecc2c74984901b0213b6073de0/240p/mp4/file.mp4" />
+                        </video>
+                        
                     </div>
                 </div>
             </React.Fragment>

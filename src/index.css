@@ -39,3 +39,5 @@ html{
 .linkButton:hover{
   color: #3f6097;
 }
+
+.dropdown-menu a:hover { background-color: rgba(63,96,151,0.6);}

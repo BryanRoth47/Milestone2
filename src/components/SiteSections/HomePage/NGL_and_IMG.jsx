@@ -6,7 +6,7 @@ class NGL_and_IMG extends Component {
     render() {
         return (
             <React.Fragment>
-                <h2 class="font24 white" style={{ textAlign: 'center', marginTop: '50px' }}>Looking for an internship?
+                <h2 class="font24 white" style={{ textAlign: 'center', marginTop: '75px' }}>Looking for an internship?
                     <Link to='/software-engineering-internship' class="white" style={{ textDecoration: 'underline', paddingLeft:'10px' }}>
                         Check out our Software Engineering Virtual Internship!</Link>
                 </h2>

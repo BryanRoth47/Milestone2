@@ -5,8 +5,8 @@ class Portfolio extends Component {
     render() {
         return (
             <React.Fragment >
-                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3" id="portfolio" style={{ backgroundColor: 'white' }}>
-                    <h1 class="sectionHeading font88 ardentGrey">PORTFOLIO</h1>
+                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3" id="portfolio" style={{ backgroundColor: 'white', width:"105%", position:"relative", left:"-15px"  }}>
+                    <h1 class="sectionHeading font88 ardentGrey" style={{position:"relative", left:"200px"}}>PORTFOLIO</h1>
 
                     <div class="container ">
                         <div class="row justify-content-md-center" style={{margin:'50px'}}>

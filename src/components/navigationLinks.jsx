@@ -68,7 +68,7 @@ class DropDown extends Component {
         if (this.props.section == 'navBar') {
             return (
                 <div class="dropdown">
-                    <a class="nav-link dropdown-toggle white" href='#' id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style={{ marginTop: '50px', fontSize: '13px' }}>More...</a>
+                    <a class="nav-link white" href='#' id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style={{ marginTop: '50px', fontSize: '13px' }}>More...</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01" style={{ background: 'rgba(63,96,151,0.6)', minWidth: '80px' }} >
                         <LastTwoLinks section={this.props.section} displayStyle={this.props.displayStyle} />
                     </div>
@@ -86,6 +86,7 @@ class LastTwoLinks extends Component {
 
     render() {
         let displayClass;
+        let displayID;
         let displayStyle = { ...this.props.displayStyle };
 
         if (this.props.section === 'navBar') {
@@ -124,17 +125,22 @@ class LineEnd extends Component {
 const ArdentLogo = (props) => {
     let imgWidth;
     let imgHeight;
+    let s = {};
     if (props.section === 'navBar') {
         imgWidth = '300';
         imgHeight = '60';
+        s.marginTop='30px';
+        s.marginLeft='40px';
     }
     else {
         imgWidth = '210';
         imgHeight = '43';
+        s.marginTop='5px';
+        s.marginLeft='20px';
     }
     return (
         <React.Fragment>
-            <a class="navbar-brand" href='#' style={{ marginTop: '5px', marginLeft: '20px' }}>
+            <a class="navbar-brand" href='#' style={s}>
                 <img width={imgWidth} height={imgHeight} src="https://static.wixstatic.com/media/132a22_c124961f91294369b46aeaebf0b2182b~mv2.png" style={{ background: 'transparent' }} />
             </a>
         </React.Fragment>
