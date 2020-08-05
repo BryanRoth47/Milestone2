@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NGL_and_IMG from './SiteSections/HomePage/NGL_and_IMG';
+import NGLandIMG from './SiteSections/HomePage/NGLandIMG';
 import WhatWeDo from './SiteSections/HomePage/WhatWeDo';
 import WhoWeAre from './SiteSections/HomePage/WhoWeAre';
 import Portfolio from './SiteSections/HomePage/portfolio';
@@ -10,7 +10,7 @@ class HomePage extends Component {
         return (
             // <NavBar> and <Footer> are on both pages, so they're handled in App.js
             <React.Fragment>
-                <NGL_and_IMG />
+                <NGLandIMG />
                 <WhatWeDo />
                 <WhoWeAre />
                 <Portfolio />

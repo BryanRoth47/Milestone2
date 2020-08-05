@@ -34,15 +34,15 @@ class Mentor extends Component {
         let currentMentor = listOfMentors[this.props.name];
 
         if (typeof (currentMentor) === 'undefined') {
-            return (<div class="col-2"></div>)
+            return (<div className="col-2"></div>)
         }
         else {
             return (
                 <React.Fragment>
-                    <div class="col-2">
-                        <img width="160" height="160" class="rounded-circle" src={currentMentor.image} />
+                    <div className="col-2">
+                        <img alt={this.props.name} width="160" height="160" className="rounded-circle" src={currentMentor.image} />
                     </div>
-                    <div class="col">
+                    <div className="col">
                         <JobBlurb name={currentMentor.name} position={currentMentor.position} />
                     </div>
                 </React.Fragment>
