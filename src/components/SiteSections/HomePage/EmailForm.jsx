@@ -35,7 +35,7 @@ export class EmailForm extends Component {
     render() {
 
         return (
-            <form id="emailForm">
+            <form id="emailForm" action="#contact">
                 <div className="form-group">
                     <input id="emailAddress" type="email" className="form-control" required maxLength='250' style={{
                         width: '80%', paddingLeft: '12px', borderWidth: '3px', borderStyle: 'solid',
