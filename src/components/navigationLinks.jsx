@@ -22,7 +22,7 @@ class NavigationLinks extends Component {
         }
 
         let listOfLinks = [
-            <React.Fragment><a className={displayClass} href='/#navBarTop' style={displayStyle}>Home</a><LineEnd section={this.props.section} /></React.Fragment>,
+            <React.Fragment><a className={displayClass} href='/#' style={displayStyle}>Home</a><LineEnd section={this.props.section} /></React.Fragment>,
             <React.Fragment><Link className={displayClass} to='/software-engineering-internship' target='_parent' style={displayStyle}>Software Engineering Virtual Internship</Link><LineEnd section={this.props.section} /></React.Fragment>,
             <React.Fragment><a className={displayClass} href='/#whatWeDo' style={displayStyle}>Mission</a><LineEnd section={this.props.section} /></React.Fragment>,
             <React.Fragment><a className={displayClass} href='/#whoWeAre' style={displayStyle}>About</a><LineEnd section={this.props.section} /></React.Fragment>,

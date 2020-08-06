@@ -4,6 +4,7 @@ import React, { Component } from 'react'
 export class EmailForm extends Component {
 
     /*
+    //this all is an attempt to have the email autogenerate on submit.
     constructor(props) {
         super(props);
         this.state = {
