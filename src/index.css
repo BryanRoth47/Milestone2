@@ -41,3 +41,31 @@ html{
 }
 
 .dropdown-menu a:hover { background-color: rgba(63,96,151,0.6);}
+
+input:focus{
+  border-width: 2px;
+  background-color: rgba(160, 240, 241, 0.46);
+  border-style: solid;
+  border-color: rgba(0, 210, 212, 1)
+}
+
+input:hover{
+  border-width: 2px;
+  background-color: rgba(204, 204, 202, 1);
+  border-style: solid;
+  border-color: rgba(0, 210, 212, 1);
+}
+
+textarea:focus{
+  border-width: 2px;
+  background-color: rgba(160, 240, 241, 0.46);
+  border-style: solid;
+  border-color: rgba(0, 210, 212, 1)
+}
+
+textarea:hover{
+  border-width: 2px;
+  background-color: rgba(204, 204, 202, 1);
+  border-style: solid;
+  border-color: rgba(0, 210, 212, 1);
+}
